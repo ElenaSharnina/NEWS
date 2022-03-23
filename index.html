@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./pages/index.css">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta name="author" content="Elena Sharnina">
@@ -26,7 +27,7 @@
             </svg>
           </button>
         </label>
-        <select name="country" class="js-choise">
+        <select name="country" class=" header__select js-choise">
           <option value="">Выберите страну</option>
           <option value="ru">Россия</option>
           <option value="ua">Украина</option>
@@ -49,6 +50,51 @@
       </section>
       <section class="news">
         <h2 class="visually-hidden">Список новостей</h2>
+        <ul class="cards">
+          <li class="card">
+            <img class="card__image" src="./images/card.jpg" alt="" />
+            <h3><a class="card__title" href="#" target="_blank">Продажи китайских смартфонов в России выросли в два
+                раза</a></h3>
+            <p class="card__text">По данным МТС, продажи устройств Huawei за первые две недели марта увеличились на
+              300%...</p>
+            <div class="card__caption">
+              <time class="card__datetime" datetime="2022-03-16T16:11:06Z">
+                <span>16/03/2022</span> 11:06
+              </time>
+              <div class="card__author">Эрик Крипке</div>
+            </div>
+          </li>
+        </ul>
+        <ul class="cards">
+          <li class="card">
+            <img class="card__image" src="./images/card.jpg" alt="" />
+            <h3><a class="card__title" href="#" target="_blank">Продажи китайских смартфонов в России выросли в два
+                раза</a></h3>
+            <p class="card__text">По данным МТС, продажи устройств Huawei за первые две недели марта увеличились на
+              300%...</p>
+            <div class="card__caption">
+              <time class="card__datetime" datetime="2022-03-16T16:11:06Z">
+                <span>16/03/2022</span>
+              </time>
+              <div class="card__author">Эрик Крипке</div>
+            </div>
+          </li>
+        </ul>
+        <ul class="cards">
+          <li class="card">
+            <img class="card__image" src="./images/card.jpg" alt="" />
+            <h3><a class="card__title" href="#" target="_blank">Продажи китайских смартфонов в России выросли в два
+                раза</a></h3>
+            <p class="card__text">По данным МТС, продажи устройств Huawei за первые две недели марта увеличились на
+              300%...</p>
+            <div class="card__caption">
+              <time class="card__datetime" datetime="2022-03-16T16:11:06Z">
+                <span>16/03/2022</span>
+              </time>
+              <div class="card__author">Эрик Крипке</div>
+            </div>
+          </li>
+        </ul>
         <ul class="cards">
           <li class="card">
             <img class="card__image" src="./images/card.jpg" alt="" />
@@ -85,7 +131,7 @@
       <img class="logo footer__logo" src="./images/logo.jpg" alt="Логотип Only fresh news" />
       <p class="footer__copyright">© 2020-2022 News</p>
       <ul class="footer__social-list">
-        <li class="social-list__icon">
+        <li class="footer__icon">
           <a href="https://twitter.com" target="_blank">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="15" cy="15" r="15" fill="#09E079" />
@@ -95,7 +141,7 @@
             </svg>
           </a>
         </li>
-        <li class="social-list__icon">
+        <li class="footer__icon">
           <a href="https://habr.com" target="_blank">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="15" cy="15" r="15" fill="#09E079" />
@@ -112,7 +158,7 @@
             </svg>
           </a>
         </li>
-        <li class="social-list__icon"><a href="https://vk.com/" target="_blank"><svg width="30" height="30"
+        <li class="footer__icon"><a href="https://vk.com/" target="_blank"><svg width="30" height="30"
               viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="15" cy="15" r="15" fill="#09E079" />
               <g clip-path="url(#clip0_9_396)">

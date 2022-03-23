@@ -1,0 +1,9 @@
+.header__input {
+  width: 500px;  
+  height: 44px;
+  margin-right: 30px;
+  border: 1px solid #e6e6e6;
+  border-radius: 22px;
+  padding: 16px;
+  background-color: inherit;
+}

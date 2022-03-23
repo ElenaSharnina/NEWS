@@ -1,0 +1,7 @@
+.card__link {
+  display: block; 
+  background-image: url('../../../images/strelka.jpg'); 
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: top right;
+}

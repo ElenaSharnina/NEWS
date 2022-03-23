@@ -1,0 +1,9 @@
+.card__text {
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 130%;
+color: #212121;
+padding: 0;
+margin: 10px 0 10px 0;
+}
