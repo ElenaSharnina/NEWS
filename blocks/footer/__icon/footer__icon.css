@@ -3,3 +3,9 @@
   width: 30px;
   height: 30px;
 }
+.footer__icon:last-of-type {
+  margin-right: 0;
+}
+.footer__icon:hover {
+  opacity: 0.6;
+}
