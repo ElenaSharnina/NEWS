@@ -9,26 +9,12 @@
 }
 @media (max-width:680px) {
   .header__input {
-    width: 400px;
+    width: 380px;
   }
 }
-@media (max-width:560px) {
+@media (max-width:500px) {
   .header__input {
-    width: 320px;
+    width: 90vw;
     
-  }
-}
-
-@media (max-width:476px) {
-  .header__input {
-    width: 260px;
-    height: 30px;
-    
-  }
-}
-@media (max-width:388px) {
-  .header__input {
-    width: 200px;
-    height: 27px;
   }
 }
