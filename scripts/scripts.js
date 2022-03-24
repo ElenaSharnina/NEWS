@@ -23,8 +23,8 @@ const renderCard = (data) => {
     card.className = 'card';
     card.innerHTML = `
     <img class="card__image" src="${news.urlToImage}" alt="${news.title}" />
-    <h3><a class="card__title" href="${news.url}" target="_blank">${news.title}</a></h3>
-    <p class="card__text">${news.description}</p>
+    <div class="card__text-zone"><h3><a class="card__title" href="${news.url}" target="_blank">${news.title}</a></h3>
+    <p class="card__text">${news.description}</p></div>
     <div class="card__caption">
       <time class="card__datetime" datetime="2022-03-16T16:11:06Z">
         <span>${news.publishedAt}</span>${news.publishedAt}

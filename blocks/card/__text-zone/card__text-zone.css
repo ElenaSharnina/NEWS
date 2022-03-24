@@ -1,0 +1,7 @@
+.card__text-zone {
+  display: block;
+  height: 120px;
+  width: 270px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
