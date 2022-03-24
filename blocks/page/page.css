@@ -14,7 +14,7 @@ body {
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   min-height: 100vh;
-  min-width: 320px;
+  
   color: #212121;
   font-family: 'Roboto', sans-serif;
   line-height: 1.3;
@@ -45,3 +45,39 @@ span {
   height: 1px;
   width: 1px;
 }
+@media (max-width:1160px) {
+  body {
+    max-width: 1000px;
+  }
+}
+@media (max-width:1024px) {
+  body {
+    max-width: 900px;
+  }
+}
+@media (max-width:950px) {
+  body {
+    max-width: 780px;
+  }
+}
+
+@media (max-width:768px) {
+  body {
+    max-width: 700px;
+  }
+} 
+@media (max-width:724px) {
+  body {
+    max-width: 650px;
+  }
+} 
+@media (max-width:388px) {
+  body {
+    max-width: 300px;
+  }
+} 
+@media (max-width:340px) {
+  body {
+    max-width: 280px;
+  }
+} 

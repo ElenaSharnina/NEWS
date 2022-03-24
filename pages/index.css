@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../vendor/fonts/roboto.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/__form/header__form.css);
@@ -24,3 +25,4 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__social-list/footer__social-list.css);
 @import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/choise/choise.css);

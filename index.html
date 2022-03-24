@@ -4,11 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./pages/index.css">
+  <script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js" defer></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta name="author" content="Elena Sharnina">
   <title>Only fresh news</title>
+  <script src="./scripts/scripts.js" defer></script>
 </head>
 
 <body>
@@ -27,7 +29,7 @@
             </svg>
           </button>
         </label>
-        <select name="country" class=" header__select js-choise">
+        <select name="country" class="js-choise">
           <option value="">Выберите страну</option>
           <option value="ru">Россия</option>
           <option value="ua">Украина</option>
@@ -37,6 +39,7 @@
           <option value="us">США</option>
           <option value="en">Англия</option>
         </select>
+
       </form>
 
 
@@ -177,6 +180,9 @@
       </ul>
     </footer>
   </div>
+
+
+
 </body>
 
 </html>

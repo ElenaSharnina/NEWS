@@ -2,3 +2,15 @@
   width: 76px;  
   height: 40px;
 }
+@media (max-width:1160px) {
+  .logo {
+    margin-right: 30px;
+  }
+}
+@media (max-width:388px) {
+  .logo {
+    margin-right: 15px;
+    width: 57px;
+    height: 34px;
+  }
+}

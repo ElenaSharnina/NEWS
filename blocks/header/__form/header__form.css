@@ -1,3 +1,10 @@
 .header__form {
-   
+   display: flex;
+   flex-direction: row;
 }
+@media (max-width:1024px) {
+    .header__form {
+      flex-wrap: wrap;
+      
+    }
+  }
