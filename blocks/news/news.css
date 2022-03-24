@@ -1,15 +1,4 @@
 .news {
-  display: grid;  
-	grid-template-columns: repeat(auto-fit, 270px);
-	padding-top: 40px;
-	padding-bottom: 50px;
-	gap: 40px 20px;
-}
-
-
-
-@media (max-width:1160px) {
-  .news {
-	  justify-content: center;
-  }
+  display: flex;
+  flex-direction: column;
 }
