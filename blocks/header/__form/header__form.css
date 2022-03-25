@@ -8,4 +8,8 @@
       
     }
   }
-  
+ @media  (max-width:615px) {
+   .header__form {
+     justify-content: center;
+   }
+ }

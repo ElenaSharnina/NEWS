@@ -7,9 +7,9 @@
   padding: 16px;
   background-color: inherit;
 }
-@media (max-width:680px) {
+@media (max-width:1024px) {
   .header__input {
-    width: 380px;
+    width: 70vw;
   }
 }
 @media (max-width:500px) {

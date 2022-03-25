@@ -61,6 +61,12 @@ span {
   }
 }
 
+@media (max-width:840px) {
+  body {
+    max-width: 740px;
+  }
+}
+
 @media (max-width:768px) {
   body {
     max-width: 700px;
@@ -69,6 +75,11 @@ span {
 @media (max-width:724px) {
   body {
     max-width: 650px;
+  }
+} 
+@media (max-width:680px) {
+  body {
+    max-width: 590px;
   }
 } 
 @media (max-width:388px) {

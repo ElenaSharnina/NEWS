@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../vendor/fonts/roboto.css);
-
+@import url(../blocks/preload/preload.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/__form/header__form.css);
