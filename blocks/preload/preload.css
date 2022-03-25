@@ -9,6 +9,6 @@
 @keyframes rotating {
   to {
     transform: rotate(-360deg);
-    transform-origin: 90px 90px;
+    transform-origin: 90px 80px;
   }
 }
