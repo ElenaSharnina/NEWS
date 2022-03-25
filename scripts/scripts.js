@@ -15,9 +15,6 @@ const getData = async (url) => {
     }
   });
   const data = await response.json()
-    .catch(err => {
-      alert(`текстюююю ${err}`);
-    })
   return data;
 }
 const getDateCorrectFormat = isoDate => {
