@@ -4,12 +4,14 @@
       padding-top: 40px;
       padding-bottom: 50px;
       gap: 40px 20px;
+      justify-content: center;
   }
   
   
   
-  @media (max-width:1160px) {
+  /* @media (max-width:1160px) {
     .cards {
         justify-content: center;
+        align-items: center;
     }
-  }
+  } */
